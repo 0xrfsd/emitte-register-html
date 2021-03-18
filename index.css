@@ -302,6 +302,12 @@ body {
     border-radius: 100px !important;
     outline-width: 0px !important;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.Register-box-submit:hover {
+    box-shadow: 0px 1px 10px #0050DC;
+    background-color: #0050DC;
 }
 
 .Register-box-submit>p {

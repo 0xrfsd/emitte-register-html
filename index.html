@@ -31,43 +31,28 @@
                     <div class="Register-box-body">
                         <form class="Register-box-form">
                             <div class="Register-box-line">
-                                <input 
-                                class="Register-box-input" 
-                                placeholder="Nome*"
-                                type="text" 
-                                id="email" 
-                                required
-                                    />
+                                <input class="Register-box-input" placeholder="Nome*" type="text" id="email" required />
                                 <img src="./user.svg" class="Register-box-icon-email" alt="email" />
                             </div>
                             <div class="Register-box-line">
-                                <input 
-                                autocapitalize="none" 
-                                class="Register-box-input" 
-                                placeholder="E-mail*"
-                                type="text" 
-                                id="email" 
-                                required
-                                />
+                                <input autocapitalize="none" class="Register-box-input" placeholder="E-mail*"
+                                    type="text" id="email" required />
                                 <img src="./email.svg" class="Register-box-icon-email" alt="email" />
                             </div>
                             <div class="Register-box-line">
-                                <input 
-                                autocapitalize="none" 
-                                class="Register-box-input" 
-                                placeholder="Telefone*"
-                                type="tel" id="phone" name="phone" required />
+                                <input autocapitalize="none" class="Register-box-input" placeholder="Telefone*"
+                                    type="tel" id="tel" data-mask="(00) 00000-0000" maxlength="11" name="phone" required />
                                 <img src="./phone.svg" class="Register-box-icon-email" alt="email" />
                             </div>
                             <div class="Register-box-line">
                                 <div class="dropdown">
                                     <button class="dropbtn">Setor*</button>
                                     <div class="dropdown-content">
-                                      <a href="#">Setor 1</a>
-                                      <a href="#">Setor 2</a>
-                                      <a href="#">Setor 3</a>
+                                        <a onclick="alert('setor 1')">Setor 1</a>
+                                        <a onclick="alert('setor 2')">Setor 2</a>
+                                        <a onclick="alert('setor 3')">Setor 3</a>
                                     </div>
-                                  </div>
+                                </div>
                                 <img src="./down.svg" class="Register-box-icon" alt="setores" id="setor" />
                             </div>
                             <button class="Register-box-submit">
@@ -90,9 +75,10 @@
             </div>
         </div>
     </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery.mask.js"></script>
     <script>
-
-</script>
+    </script>
 </body>
 
 </html>
